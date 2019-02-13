@@ -1,0 +1,45 @@
+<!DOCTYPE <!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Crystal Collector</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="title">Crystal Collector!</h1>
+        </div>
+        <div class="introbox">
+            <p class="intro" id="intro">
+                You will be given a random number at the start of the game. <br><br>
+                there are four crystals below. By clicking on a crystal you will 
+                add a specific amount of points to your total score. <br><br>
+                You win the game by matching your total score to random 
+                number, you lose the game if your total score goes above the random number. <br><br>
+                The value of each crystal is hidden from you until you click on it. <br><br>
+                Each time when the game starts, the game will change the values of each crystal.
+            </p>
+        </div>
+        <div class="numbox">
+            <h1 class="num" id="num"></h1>
+        </div>    
+        <div class="infobox">
+            <h3 class="win" id="win">Wins: 0</h3>
+            <h3 class="lose" id="lose">Losses: 0</h3>
+        </div>
+        <div class="clearfix"></div>
+            <img class="gem" src="assets/images/gem1.png" id="gem1">
+            <img class="gem" src="assets/images/gem2.png" id="gem2">
+            <img class="gem" src="assets/images/gem3.png" id="gem3">
+            <img class="gem" src="assets/images/gem4.png" id="gem4">
+        <div class="scoremsg">
+            <h4 class="scoretxt" id="scoretxt">Your total score is:</h4>
+        </div>
+        <div class="scorebox">
+            <h2 class="scorenum" id="scorenum">0</h2>
+        </div>
+        <div class="credit">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        <script src="assets/javascript/game.js"></script>
+    </body>
+</html>
