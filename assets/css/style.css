@@ -99,10 +99,10 @@ body:before {
 .credit{
     text-align: center;
     background-color: lightgray;
-    font-size: 12pt;
-    margin-top: 15pt;
-    height: 10pt;
-    padding: 10pt
+    font-size: 10pt;
+    margin-top: 10pt;
+    padding-top: 8pt;
+    height: 25pt;
 }
 
 .clearfix::after {
